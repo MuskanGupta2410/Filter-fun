@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+</head>
+<body>
+	<script type="text/javascript" src="1.js"></script>
+	<script type="text/javascript" src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+	<h1>
+	Upload an Image and Try filters</h1>
+	<canvas id="can">
+	</canvas>
+	<p>
+		<h2>Select File</h2>
+	<input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()" value= "Choose File"></p>
+	<p><h2>
+		Choose Filter</h2>
+	<input type="button" value="Make Gray" onclick="makeGray()">
+	<input type="button" value="Red" onclick="makeRed()">
+    </p>
+	
+</body>
+</html>
